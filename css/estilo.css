@@ -1,0 +1,19 @@
+body {
+	background: #ffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+}
+
+section {
+	margin:auto;
+	width:100%;
+}
+
+#img {
+	float: left;
+}
+
+#cabecalho{
+	height: 200px;
+}
+

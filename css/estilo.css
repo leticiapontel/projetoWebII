@@ -10,6 +10,19 @@ header {
 	height: auto;
 }
 
+/*LOGO AJEITADA, CODIGO:
+header{
+	height:200px;
+	width:100%;
+}
+
+.logo {
+	text-align:center;
+}
+.pesquisa {
+	float:right;
+}*/
+
 section {
 	width: 100%;
 }

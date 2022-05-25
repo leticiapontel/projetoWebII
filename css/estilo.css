@@ -20,6 +20,7 @@ nav {
 	height: 100px;
 	padding-left: 22%;
 	padding-bottom: 10%;
+	text-align:center;
 	justify-content: center;
 
 }
@@ -51,6 +52,7 @@ main{
 }
 
 .menu a {
+	justify-content:center;
 	background: #FFDEAD;
 	color: #000;
 	margin: 50px;
@@ -60,11 +62,9 @@ main{
 	font-size: 30px;
 	font-weight: 500;
 	text-decoration: double;
-
 }
 
 .menu a:hover {
-
 	background: #fff;
 	color: #D8BFD8;
 	border: 1px solid #D8BFD8;
@@ -154,4 +154,45 @@ h2{
 	text-align: center;
 	font-size:  20px;
 	padding-top: 15px;
+}
+
+
+#card-final{
+	height: 180px;
+}
+
+h1{
+	padding: 20px;
+	text-align: center;
+}
+
+.card-title{
+	color: #e16664;
+}
+
+
+#menub{
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.menub {
+	background-color: #cc947c;
+	color: #000;
+	border: 15px solid #cc947c;
+	border-radius: 10px;
+	font-size: 20px;
+	text-decoration: double;
+	height: 50px;
+	width: 300px;	
+	align-items: center;
+}
+    
+.menub:hover {	
+	background-color: #FFDEAD;
+	border: 1px solid #fff;
+}
+
+.button{
+	text-align: center;
 }

@@ -1,0 +1,29 @@
+h1, h2, h3, h4, h5{
+	font-family:'Montserrat', sans-serif;
+	text-align:center;
+}
+
+arquivo.html
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
+texto{
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+}
+
+arquivo.html
+<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+rodapé{
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+}
+
+arquivo.html
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">

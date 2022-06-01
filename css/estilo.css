@@ -1,26 +1,25 @@
 body {
 	height: 100%;
 	width: 100%;
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	font-size:18px;
 }
 
 header{
-	height:200px;
+	height:350px;
 	width:100%;
 }
 
 .logo {
-	text-align:center;
+	text-align: center;
 }
-.pesquisa {
+.form-inline {
 	float:right;
+	padding-left: 30px;
 }
 
 section {
-	width: 100%;
+	width:100%;
 }
-
 nav {
 	background-color: #FFEDD1;
 	width: 100%;
@@ -28,28 +27,28 @@ nav {
 	text-align: center;
 	padding-bottom: 10%;
 	justify-content: center;
-
+	
 }
 
 main{
 	background-color: #ffdead;
 }
 
-#logo {
+#logo {	
 	padding: 15px;
-	height: 400px;
-	width: 400px;
+	height: 300px;
+	width: 300px;
 }
 
 
-#cabecalho {
+#cabecalho{
 	height: 100%;
 	width: 100%;
 	padding: 10px;
 }
 
-.pesquisa {
-	width: 40%;
+.pesquisa{
+	width: 20%;
 }
 
 .wrapper2 {
@@ -58,8 +57,8 @@ main{
 }
 
 .menu a {
-	justify-content:center;
-	background: #FFDEAD;
+	justify-content: center;
+	background-color: #FFDEAD;
 	color: #000;
 	margin: 50px;
 	border: 15px solid #FFDEAD;
@@ -67,80 +66,68 @@ main{
 	margin-right: 15px;
 	font-size: 30px;
 	font-weight: 500;
-	text-decoration: double;
+	text-decoration: double;	
+}
+    
+.menu a:hover {	
+background: #fff;
+color: #D8BFD8;
+border: 1px solid #D8BFD8;
 }
 
-.menu a:hover {
-	background: #fff;
-	color: #D8BFD8;
-	border: 1px solid #D8BFD8;
-}
-
-#p1 {
+#p1{
 	padding: 50px;
 	font-size: 70px;
 	text-align: center;
 }
 
-#p2 {
+#p2{	
 	font-size: 35px;
 	text-align: center;
 }
 
-#cabecalho_texto {
-	font-size: 30px;
-	text-align: center;
-	background: #FFDEAD;
-}
 
 .wrapper {
+	text-align: center;
+	font-size: 25px;
 	display: grid;
-	grid-template-columns: 500px 500px 500px;
+	grid-template-columns: 400px 400px 400px;
 }
-
-#grid {
-	height: 250px;
-	width: 250px;
-}
-
-footer {
-	padding-left: 25%;
-	text-align: center;
-	height: 200px;
-	text-align: justify;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.texto1 {
-	text-align: center;
-	float: left;
-	font-size: 16px;
-	padding-left: 1%;
-	padding-top: 2%;
-}
-
-.texto2 {
-	text-align: center;
-	float: left;
-	font-size: 16px;
-	padding-left: 4%;
-	padding-top: 2%;
-}
-
-.texto3 {
-	text-align: justify;
-	float: left;
-	font-size: 16px;
-	padding-left: 4%;
-	padding-top: 2%;
-}
-
-/*Leticia*/
-
 #grid{
 	height: 250px;
 	width: 250px;
 }
+footer {
+	padding-left: 25%;
+	text-align: center;
+	height:200px;
+	text-align:justify;
+	font-family:'Montserrat', sans-serif;
+}
+
+    .texto1 {
+	text-align:center;
+	float:left;
+	font-size: 16px;
+	padding-left:1%;
+	padding-top:2%;
+    }
+    
+    .texto2 {
+	text-align:center;
+	float:left;
+	font-size: 16px;
+	padding-left:4%;
+	padding-top:2%;
+    }
+    
+    .texto3 {
+	text-align:justify;
+	float:left;
+	font-size: 16px;
+	padding-left:4%;
+	padding-top:2%;
+    }
 
 h2{
 	color: black;
@@ -148,20 +135,20 @@ h2{
 }	
 
 .container{
-	padding: 30px;
+	padding-top: 20px;
+	padding-bottom: 25px;
 }
 
 .row{
-	padding: 25px;
+	padding: 20px;
 }
 
 .card{
-	height: 260px;
+	height: 300px;
 	text-align: center;
 	font-size:  20px;
 	padding-top: 15px;
 }
-
 
 #contact{
 	width: 1200px;

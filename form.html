@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Novidades | AN Store</title>
+        <title> Formulário | AN Store</title>
         <meta charset="utf-8">
 
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
@@ -54,44 +54,38 @@
                 </div>
                 <br>
             </nav>
-            <main>
-                <br>
-                <h1>Casacos Teddy </h1>
-                    <br>
-                    <br>
 
-                    <div class="wrapper" style="justify-content: center;">
-                        <div>
-                            <img id="grid" src="img/teddy-marrom.png" alt=""> <br> Teddy duplo
-                        <br>
-                        </div>
-                        <div>
-                            <img id="grid"src="img/teddy-branco.jpg" alt=""> <br> Teddy All White
-                        </div>
-                        <div style="width: 400px;">
-                            <img id="grid"src="img/teddy-preto.jpg" alt=""> <br> Teddy All Black
-                        </div>
-                    </div>
-                        
-                        <hr>
-                        <h1>Calças Térmicas </h1>
-                            <br><br>
-                            <div class="wrapper" style="justify-content: center;">
-                                <div>
-                                    <img id="grid"src="img/calca-cinza.jpg" alt=""> <br> Calça de Moletom Cinza
-                                <br>
-                                </div>
-                                <div>
-                                    <img id="grid"src="img/calca-cinzaescuro.jpg" alt=""> <br> Calça de Moletom Preto
-                                </div>
-                                <div style="width: 400px;">
-                                    <img id="grid"src="img/calca-vermelho.jpg" alt=""> <br> Calça de Moletom Vermelho
-                                </div>
-                                <br>
-    
-                            </div>
-                    <br>
-                    </main>
+            <main>
+            
+            <section class="container">
+		    <div class="form">
+		
+			<form action="endereço da página e/ou arquivo que processa os dados" method="post">
+				<legend>Informações para contato</legend>
+	
+				<label for="nome"style="padding-top:3%;">Nome completo</label>
+				<input type="text" id="nome" name="nome" class="form-control" required placeholder="Digite o seu nome">
+				
+				<label for="email" style="padding-top:3%;">E-mail</label>
+				<input type="email" id="email" name="email" class="form-control" placeholder="Digite seu email" required>
+				
+                <label for="text" style="padding-top: 3%;">Qual o motivo do seu contato?</label>
+                <br>
+				<textarea class="mensagem" rows="5" cols="40" maxlength="500"placeholder="Escreva aqui"></textarea>
+
+               <br><br>
+				
+               <button type="submit" class="send">
+                    <a href="#" id="button" style="color:black; font-size: 20px;">Enviar</a>
+               </button>
+                    
+                
+				
+				
+			
+			
+			</form>
+            </main>
     
                 
                 <footer >
